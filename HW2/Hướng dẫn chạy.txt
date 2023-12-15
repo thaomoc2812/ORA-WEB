@@ -1,0 +1,2 @@
+- Mở folder HW2
+- Chạy file index.html
