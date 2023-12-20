@@ -1,0 +1,56 @@
+.khoi{
+    height: 500px;
+    background-color: #ffffff;
+   
+}
+.sidebar{
+    background-color: #f4f5f3;
+
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu nền và độ mờ */
+    z-index: 9999; /* Đặt z-index để đảm bảo khung nổi bật hiển thị phía trên */
+}
+.email-frame {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 600px;
+    height: 550px;
+    background-color: #f7f7f7;
+    border: 1px solid #ddd;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    z-index: 1;
+    overflow: hidden;
+}
+
+.email-frame .card {
+    height: 100%;
+}
+
+.email-frame .card-header {
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+}
+.menu{
+    background-color: #f8f9fa;
+}
+.row{
+    cursor: pointer;
+    width: 100%;
+}
+.item-mail{
+    height: 80px;
+}
+.toast-success {
+    background-color: #ae7db9;
+  }
+  
